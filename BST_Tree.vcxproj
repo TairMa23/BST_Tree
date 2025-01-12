@@ -127,7 +127,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\Downloads\main.cpp" />
+    <ClCompile Include="BSNode.cpp" />
     <ClCompile Include="BST_Tree.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Downloads\printTreeToFile.h" />
+    <ClInclude Include="BSNode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\Downloads\BSTData.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\Downloads\printTreeToFile.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Downloads\printTreeToFile.pdb" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
